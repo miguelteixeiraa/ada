@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ada_0',['ada',['../dd/d64/namespaceada.html',1,'']]],
-  ['ada_20_2d_20testing_1',['Ada - Testing',['../index.html',1,'']]],
+  ['ada_1',['Ada',['../index.html',1,'']]],
   ['ada_2ecpp_2',['ada.cpp',['../d8/d50/ada_8cpp.html',1,'']]],
   ['ada_2eh_3',['ada.h',['../d0/da8/ada_8h.html',1,'']]],
   ['ada_5fassert_5fequal_4',['ADA_ASSERT_EQUAL',['../d7/d19/common__defs_8h.html#aa452b978546971c9532a670e3a1cfaa2',1,'common_defs.h']]],
