@@ -9,19 +9,21 @@ permissions:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ACTIONS_STEP_DEBUG: true
 
 jobs:
   check-release-conditions:
     runs-on: ubuntu-latest
-    if: >
-      ${{ github.event.pull_request.merged == true }} &&
-      ${{ github.event.pull_request.base.ref == 'main' }} &&
-      ${{ startsWith(github.event.pull_request.head.ref, 'release/v') }} &&
-      ${{ startsWith(github.event.pull_request.user.login, 'github-actions') }}
+    if: |
+      github.event.pull_request.merged == true && 
+      github.event.pull_request.base.ref == 'main' && 
+      startsWith(github.event.pull_request.head.ref, 'release/v') && 
+      startsWith(github.event.pull_request.user.login, 'github-actions')
+  
     steps:
       - name: Check release conditions
         run: | 
-          echo "Conditions have met!"
+          echo "All conditions have been met!"
           
   release-script-test:
     needs: check-release-conditions
