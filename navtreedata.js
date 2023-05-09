@@ -29,15 +29,16 @@ var NAVTREE =
     [ "Usage", "index.html#autotoc_md2", [
       [ "Parsing & Validation", "index.html#autotoc_md3", null ],
       [ "Examples", "index.html#autotoc_md4", null ],
-      [ "CMake dependency", "index.html#autotoc_md5", null ]
+      [ "C wrapper", "index.html#autotoc_md5", null ],
+      [ "CMake dependency", "index.html#autotoc_md6", null ]
     ] ],
-    [ "Installation", "index.html#autotoc_md6", [
-      [ "Homebrew", "index.html#autotoc_md7", null ]
+    [ "Installation", "index.html#autotoc_md7", [
+      [ "Homebrew", "index.html#autotoc_md8", null ]
     ] ],
-    [ "Contributing", "index.html#autotoc_md8", [
-      [ "Building", "index.html#autotoc_md9", null ],
-      [ "Amalgamation", "index.html#autotoc_md10", null ],
-      [ "License", "index.html#autotoc_md11", null ]
+    [ "Contributing", "index.html#autotoc_md9", [
+      [ "Building", "index.html#autotoc_md10", null ],
+      [ "Amalgamation", "index.html#autotoc_md11", null ],
+      [ "License", "index.html#autotoc_md12", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -66,6 +67,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -75,9 +77,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d6/d3d/url__aggregator_8h.html#a4e483bbc60c5905f8885c2dc134a30ed",
-"db/d2e/ada__idna_8cpp.html#ac7495198fe0aa95543b347ac9cc548dda96f4cb1c26cd9e6384d907f30d089c5a",
-"dd/d90/unicode_8h.html#a8e4d69a9364a662aa6b27afee0b33237"
+"d5/ddb/namespaceada_1_1idna.html#ac7495198fe0aa95543b347ac9cc548dda96f4cb1c26cd9e6384d907f30d089c5a",
+"db/d2e/ada__idna_8cpp.html#a43afa026d0aeb1a48e7ed8e2ca90d387",
+"dd/d64/namespaceada.html#a7a6e382cd6d05da70cf566a2cf636574a5839c72e828b49749aa4a8f390a8d097"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
