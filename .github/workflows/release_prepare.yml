@@ -50,4 +50,3 @@ jobs:
           body: |
             This pull PR updates the source code version to ${{ env.NEXT_RELEASE_TAG }}
           delete-branch: true
-          reviewers: "lemire,anonrig"
