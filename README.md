@@ -1,4 +1,6 @@
 # Ada
+
+blah
 ![OpenSSF Scorecard Badge](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)
 [![Ubuntu 22.04](https://github.com/ada-url/ada/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/ada-url/ada/actions/workflows/ubuntu.yml)
 [![VS17-CI](https://github.com/ada-url/ada/actions/workflows/visual_studio.yml/badge.svg)](https://github.com/ada-url/ada/actions/workflows/visual_studio.yml)
@@ -15,14 +17,12 @@ The Ada library passes the full range of tests from the specification,
 across a wide range of platforms (e.g., Windows, Linux, macOS). It fully
 supports the relevant [Unicode Technical Standard](https://www.unicode.org/reports/tr46/#ToUnicode).
 
-
-## Ada is fast. 
+## Ada is fast.
 
 On a benchmark where we need to validate and normalize [thousands URLs found
-on popular websites](https://github.com/ada-url/url-various-datasets/tree/main/top100), 
+on popular websites](https://github.com/ada-url/url-various-datasets/tree/main/top100),
 we find that ada can be several times faster than popular competitors (system: Apple MacBook 2022
 with LLVM 14).
-
 
 ```
       ada ▏  188 ns/URL ███▏
@@ -138,7 +138,9 @@ ada::result<ada::url_aggregator> url = ada::parse<ada::url_aggregator>("https://
 url->set_hash("is-this-the-real-life");
 // url->get_hash() will return "#is-this-the-real-life"
 ```
+
 For more information about command-line options, please refer to the [CLI documentation](docs/cli.md).
+
 ### C wrapper
 
 See the file `include/ada_c.h` for our C interface. We expect ASCII or UTF-8 strings.
@@ -221,6 +223,7 @@ You may amalgamate all source files into only two files (`ada.h` and `ada.cpp`) 
 
 ### License
 
-This code is made available under the Apache License 2.0 as well as the MIT license. 
+This code is made available under the Apache License 2.0 as well as the MIT license.
 
-Our tests include third-party code and data. The benchmarking code includes third-party code: it is provided for research purposes only and not part of the library.
+Our tests include third-party code and data. The benchmarking code includes third-party code: it is provided for
+research purposes only and not part of the library.
